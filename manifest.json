@@ -1,0 +1,15 @@
+{
+  "name": "Auto Reloader",
+  "version": "1.0.0",
+  "description": "Automaticlly reloads pages",
+  "manifest_version": 3,
+  "author": "Rotec",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Auto Reloader"
+  },
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
